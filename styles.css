@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+  }
+  
+  .message {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #ff473a;
+  }
+  
+  #surprise {
+    margin-top: 20px;
+  }
+  
+  #surprise img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .surprise-message {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #ff6f61;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
